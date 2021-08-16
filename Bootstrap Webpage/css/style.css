@@ -1,0 +1,154 @@
+/* header formatting section begins here */
+.header-container{
+    background-color: rgb(8, 13, 14);
+    height: 15vh;
+    border-bottom: 2px solid coral;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.company-logo{
+    height: 10vh;
+}
+
+.nav-bar{
+    margin-left: 10vw;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover{
+    color: coral;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+}
+
+button{
+    background: rgb(170, 139, 255);
+    color: white;
+    border: 2px solid rgb(41, 21, 21);
+    padding: 1em;
+    width: 10vw;
+    border-radius: 7px;
+}
+
+button:hover{
+    background:white;
+    color: coral;
+    border: 2px solid rgb(41, 21, 21);
+    padding: 1em;
+    width: 10vw;
+    border-radius: 7px;
+}
+/*header formatting section ends here */
+/*main section formatting starts here*/
+.hero-unit-container{
+    background-image: url("/images/Image1.jpg");
+    height:500px;
+    text-align: center;
+}
+.hero-unit-container h1{
+    margin: 0em;
+    padding-top: 20vh;
+    font-size: 5em;
+}
+.paper-layout-section{
+    background-color: rgb(195, 221, 241);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.paper-layout-section h2{
+    text-align: center;
+}
+
+.paper-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.card img{
+    height: 35vh;
+    width:  18vw;
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    height: 55vh;
+    width:  18vw;
+    padding: 1em;
+    box-shadow: 5px 5px 30px grey; /*Paper layout projection*/
+}
+.card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease;
+ }
+ .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height:40px;
+ }
+footer{
+    background-color: rgb(170, 125, 136);
+    height: 15vh;
+    text-align: center;
+    border: 2px solid coral;
+    margin: 0;
+}
+
+footer h2{
+    padding-top: 1em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 27%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
