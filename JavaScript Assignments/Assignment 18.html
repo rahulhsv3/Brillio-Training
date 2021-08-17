@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript Assignment 18</title>
+</head>
+<body>
+<!-- 18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.  -->
+<script>
+function test50(x, y) 
+{
+  return ((x == 50 || y == 50) || (x + y == 50));
+}
+document.write(test50(50, 50)) ; document.write("<br>");
+document.write(test50(20, 50)) ; document.write("<br>");
+
+document.write(test50(10, 80)) ; document.write("<br>");
+document.write(test50(40, 10)) ; document.write("<br>");
+
+
+</script>
+</body>
+</html>

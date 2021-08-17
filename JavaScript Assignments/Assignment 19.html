@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript Assignment 19</title>
+</head>
+<body>
+  <!-- 19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400.-->
+<script>
+function testhundred(x) {
+  return ((Math.abs(100 - x) <= 20) ||
+	 (Math.abs(400 - x) <= 20));
+}
+document.write(testhundred(48)); document.write("<br>"); 
+document.write(testhundred(100)); document.write("<br>"); 
+document.write(testhundred(109)); document.write("<br>"); 
+document.write(testhundred(209)); document.write("<br>"); 
+document.write(testhundred(200));document.write("<br>"); 
+
+</script>
+</body>
+</html>

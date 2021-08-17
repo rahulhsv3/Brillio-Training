@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript Assignment 22</title>
+</head>
+<body>
+  <!-- 22. Write a JavaScript program to remove a character at the specified position of a given string and return the new string.   -->
+ <script>
+
+function remove_character(str, char_pos) 
+ {
+  part1 = str.substring(0, char_pos);
+  part2 = str.substring(char_pos + 1, str.length);
+  return (part1 + part2);
+ }
+
+document.write(remove_character("Python <br>",0));
+document.write(remove_character("Python <br>",3));
+document.write(remove_character("Python <br>",5));
+</script>
+</body>
+</html>

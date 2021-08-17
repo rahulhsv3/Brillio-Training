@@ -1,0 +1,19 @@
+<html>
+    <head>
+    <meta charset=utf-8 />
+    <title>JavaScript Assignment 9</title>
+    </head>
+    <body>
+        <!-- 9. Write a JavaScript program to calculate days left until next Christmas.  -->
+        <script>
+            var today=new Date();
+            var christmas=new Date(today.getFullYear(), 11, 25);
+            if (today.getMonth()==11 && today.getDate()>25) 
+            {
+            christmas.setFullYear(christmas.getFullYear()+1); 
+            }  
+            var days=1000*60*60*24;
+            document.write(Math.ceil((christmas.getTime()-today.getTime())/(days)) + " days are left until Christmas!" );
+        </script>
+  </body>
+    </html>
