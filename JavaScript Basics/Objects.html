@@ -1,0 +1,27 @@
+<html>
+   <head>
+   <title>User-defined objects</title>   
+      <script type = "text/javascript">
+         function addPrice(amount) {
+            with(this) {
+               price = amount;
+            }
+         }
+         function book(title, author) {
+            this.title = title;
+            this.author = author;
+            this.price = 0;
+            this.addPrice = addPrice;
+         }
+      </script>      
+   </head>
+   <body>   
+      <script type = "text/javascript">
+         var myBook = new book("Harry Potter", "J.K Rowling");
+         myBook.addPrice(600);
+         document.write("Book title is : " + myBook.title + "<br>");
+         document.write("Book author is : " + myBook.author + "<br>");
+         document.write("Book price is : Rs." + myBook.price + "<br>");
+      </script>      
+   </body>
+</html>
