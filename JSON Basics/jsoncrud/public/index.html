@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Basic CRUD Operation</title>
+</head>
+<style >
+    tr,td{
+        padding: 7px;
+    }
+    .button1{
+        background-color: aqua;
+    }
+    .button2{
+        background-color: brown;
+    }
+    .button3{
+        background-color: coral;
+    }
+    .button4{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <table border="8">
+        <tr>
+            <td><input type="text" placeholder="Enter ID" id="id1" /> 
+            <input type="text" placeholder="Enter Department" id="dname" />
+            <input type="text" placeholder="Enter Location" id="loc" /></td>
+            <th><button onClick="addDept(Number(id1.value),dname.value,loc.value)" class="button1">Create Department</button></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onClick="getDept()" class="button2">Retrieve Department</button></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter the ID to get" id="did1" />
+            <input type="text" placeholder="Enter the Department to get" id="ddname" />
+            <input type="text" placeholder="Enter the Location to get" id="dloc" /></td>
+            <td><button onClick="editDept(Number(did1.value),ddname.value,dloc.value)" class="button3">Update Department</button></td>
+            
+        </tr>
+        <tr>
+           <td><input type="text" placeholder="Enter the ID to delete" id="eid1" /></td>
+            <td><button onClick="deleteDept(Number(eid1.value))" class="button4">Delete Department</button></td>
+        </tr>
+    </table>
+    <script src="js/index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+  "dept": [
+    {
+      "id": 1,
+      "dname": "Admin",
+      "loc": "Chennai"
+    },
+    {
+      "id": 4,
+      "dname": {},
+      "loc": {}
+    },
+    {
+      "id": 5,
+      "dname": {},
+      "loc": {}
+    },
+    {
+      "id": 6,
+      "dname": {},
+      "loc": {}
+    },
+    {
+      "id": 7,
+      "dname": "wer",
+      "loc": "wer"
+    },
+    {
+      "id": 9,
+      "dname": "gfsdg",
+      "loc": "dfg"
+    }
+  ]
+}
