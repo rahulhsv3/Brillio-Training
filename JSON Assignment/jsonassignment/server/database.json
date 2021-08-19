@@ -1,0 +1,16 @@
+{
+  "dept": [
+    {
+      "id": 2,
+      "dname": "Orthopedic",
+      "pname": "Rahul",
+      "time": "10AM"
+    },
+    {
+      "id": 3,
+      "dname": "Retina",
+      "pname": "Tejas",
+      "time": "11AM"
+    }
+  ]
+}
