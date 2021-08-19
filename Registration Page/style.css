@@ -1,0 +1,38 @@
+.signin{
+    margin-top: 8rem;
+    width: 450px;
+    padding-top: 6rem;
+    background-color: lightblue;
+}
+.registeration{
+    width: 420px;
+    margin-top: 5px;
+    background-color: lightgray;
+}
+span{
+    color: red;
+}
+#fname, #lname{
+    margin-top: 1rem;
+    display: inline;
+    width: 180px;
+}
+#email, #password, #cpass{
+    width: 350px;
+}
+.signin-foot{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+#checkb, #return{
+    display: inline;
+}
+
+#reg{
+    margin-top: 2rem;
+    width: 200px;
+    margin-bottom: 4rem;
+}
+
